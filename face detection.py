@@ -144,6 +144,4 @@ with tf.Session() as sess:
                                                               y: label_y,
                                                               keep_prob: 1.})
 
-        print("Epoch: " + str(epoch) + ", Loss= " + \
-                  "{:.3f}".format(loss) + ", Training Accuracy= " + \
-                  "{:.3f}".format(acc))
+        print("Epoch: " + str(epoch) + ", Loss= " + "{:.3f}".format(loss) + ", Training Accuracy= " +"{:.3f}".format(acc))
